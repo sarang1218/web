@@ -1,7 +1,13 @@
 <style>
     *{
-        font-family:"맑은 고딕", Arial;
+        font-family: "맑은 고딕", Arial;
         line-height: 150%;
+    }
+    *:link{
+        color: black;
+    }
+    *:visited{
+        color: black;
     }
     header{
         margin-top: 50px;
@@ -10,6 +16,11 @@
     header h1{
         display: inline;
         font-size: 50px;
+        letter-spacing: 2pt;
+    }
+    header i{
+        color: rgb(255, 217, 0);
+        font-size: 20pt;
     }
     nav{
         height: 50px;
@@ -21,6 +32,7 @@
         border-bottom: 2px solid rgb(178, 110, 241);
         padding: 15px 20px;
         text-align: center;
+        color: black;
     }
     nav ul li{
         display: inline;
@@ -41,7 +53,7 @@
     }
     body{
         margin: 0 auto;
-        width: 80vw;
+        width: 100vw;
     }
     header, footer{
         height: 100px;
@@ -49,6 +61,8 @@
     }
     .content{
         display: flex;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .photo{
         flex: 4;
@@ -68,6 +82,9 @@
     a {
         text-decoration: none;
     }
+    .bookmark{
+        color: black;
+    }
     .bookmarkname{
         font-size: 16pt;
         padding-bottom: 10px;
@@ -75,20 +92,30 @@
     .youtube > iframe{
         padding-top: 10px;
     }
+    .gallery{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        background-color: rgb(253, 249, 243);
+    }
     .galleryname{
         font-family: "Bookman Old Style";
         font-size: 16pt;
+        color:rgb(128, 100, 58);
         text-align: center;
-        border-top: 5px solid darkgray;
-    }
-    .gallery{
-        border-bottom: 5px solid darkgray;
-        border-top: 5px solid darkgray;
-        margin: 10px 0%;
+        letter-spacing: 3pt;
+        border-top: 5px solid rgb(255, 239, 212);
+        border-bottom: 5px solid rgb(255, 239, 212);
+        background-color: white;
     }
     footer{
-        background-color: darkgray;
-        color: whitesmoke;
+        margin-top: 50px;
+        padding-top: 15px;
+        border-top: 1px solid darkgray;
         text-align: center;
+        font-size: 10pt;
+        line-height: 15pt;
+    }
+    .sns{
+        font-size: 16pt;
     }
     </style>
